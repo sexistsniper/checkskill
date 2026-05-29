@@ -26,12 +26,13 @@ This game link is the full live version of the project.
 
 To test this script:
 1. Join the game.
-2. Buy a farm.
-3. Walk up to the farm interaction point.
-4. Use the proximity prompt.
-5. The skill check UI should appear.
-6. Press `E` or click at the correct timing to clear stages.
-7. The result is sent back to the server and used by the game’s progression flow.
+2. pick up 2 bombs and use them on brainrott since you need 100 coins to buy farm
+3. Buy a farm.
+4. Walk up to the farm interaction point.
+5. Use the proximity prompt.
+6. The skill check UI should appear.
+7. Press `E` or click at the correct timing to clear stages.
+8. The result is sent back to the server and used by the game’s progression flow.
 
 ## Notes for reviewers
 
