@@ -71,4 +71,4 @@ Discord: 902635694260912210
 
 Additional proof:
 https://imgur.com/a/x40ixfU
-https://i.imgur.com/IF20iqZ_d.png?maxwidth=520&shape=thumb&fidelity=high
+https://i.imgur.com/IF20iqZ.png
