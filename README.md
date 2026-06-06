@@ -1,6 +1,6 @@
 # Checkskill System Showcase
 
-This repository contains a Roblox Luau client script from my game **Nuke a Brainrot**.
+This repository contains a Roblox Luau client/server script from my game **Nuke a Brainrot**.
 
 ## What this script does
 
