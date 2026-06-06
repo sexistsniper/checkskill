@@ -39,7 +39,7 @@ To test this script:
 This screenshot shows access to the Roblox Creator Dashboard for the live experience.
 
 ![Creator Dashboard verification](https://i.imgur.com/kMWrZbM.png)
-![Creator Dashboard verification](https://imgur.com/a/d82QPHt)
+![Creator Dashboard verification](https://i.imgur.com/IF20iqZ.png)
 
 ## Notes for reviewers
 
