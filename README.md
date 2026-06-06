@@ -1,68 +1,74 @@
-# Checkskill System Showcase
+# Nuke a Brainrot - Systems Programmer Showcase
 
-This repository contains a Roblox Luau client/server skill-check system from my game **Nuke a Brainrot**.
+## Overview
 
-## What this system does
+Nuke a Brainrot is a Roblox game I have been developing solo for over 1 year.  
+The project focuses on server-sided systems, player progression, DataStore saving/loading, automation, UI communication, and modular gameplay logic.
 
-This system handles a custom proximity-prompt-driven skill check used in the game’s farming/progression loop.
+My main role in this project was scripting and system development, but since I worked solo, I also handled setup, testing, UI connections, environment layout, and system integration.
 
-It includes:
+## What This Project Shows
 
-- Custom proximity prompt UI
-- Prompt filtering for different interaction types
-- Randomized skill check placement
-- Stage-based difficulty scaling
-- Real-time input validation
-- Client-side feedback with server result reporting
-- Server-side cooldown and request validation
-- Farm ownership and distance checks
-- Server-owned buff/reward logic
-- UI focus mode while the minigame is active
+This project demonstrates my ability to build connected Roblox systems instead of isolated scripts.  
+The main focus is on reliable backend logic, reusable modules, client/server structure, and progression systems that work together in-game.
 
-## Files
+## Main Systems
 
-- `CheckSkillClient.client.lua`  
-  Handles the local UI, custom prompt display, skill-check stages, input detection, and result reporting.
+- DataStore saving and loading
+- Farm purchasing system
+- Coin shop and player currency
+- Player progression
+- Rebirth system
+- Skill buff system
+- Robux skill reset logic
+- Bomb system
+- Client/server communication
+- RemoteEvent and RemoteFunction usage
+- Server-sided validation
+- Modular script structure
+- UI feedback connected to gameplay
+- Custom hotbar, HP/progress bars, and proximity prompt UI
 
-- `CheckSkillService.server.lua`  
-  Validates skill-check requests, checks farm ownership/distance, manages cooldowns, starts active sessions, clamps results, and applies the server-side buff.
+## Demo Videos
 
-- `SkillCheckConfig.lua`  
-  Stores server-owned tuning values such as cooldown, active window, max distance, stage boosts, and difficulty modifiers.
+### 1. Data Saving / Farm System
 
-## Demo game
+This video shows the DataStore system connected with farm purchasing, coin shop UI, and player progression.  
+Players can buy farms, spend coins, unlock automation, and keep their progress after rejoining.
 
-Full game link:  
-https://www.roblox.com/games/85015843649922/Nuke-a-Brainrot
+I handled the server-sided logic, saving/loading, UI communication, and validation so the system works reliably and can be expanded later.
 
-## How to test
+### 2. Bomb System / Code Structure
 
-1. Join the game.
-2. Pick up bombs and use them on brainrots until you have enough coins to buy a farm.
-3. Buy a farm.
-4. Walk up to the farm interaction point.
-5. Use the proximity prompt.
-6. The skill check UI should appear.
-7. Press `E` or click at the correct timing to clear stages.
-8. The result is sent back to the server, where the reward/buff logic is validated and applied.
+This video shows the bomb system and the client/server structure behind it.  
+The system handles player interaction, bomb usage, feedback, and progression through server-sided logic.
 
-## Ownership / Studio Proof
+I also show some of the project structure, including scripts, modules, and files used to keep the system organized and easier to expand.
 
-These screenshots show that the system is from my Roblox Studio project and that I have access to the live experience, Studio project, scripts, and creator dashboard.
+### 3. Rebirth / Skill Buff System
 
-![Creator Dashboard ownership proof](PASTE_DIRECT_IMAGE_LINK_HERE)
+This video shows the rebirth and skill buff system connected to player progression and server-sided validation.  
+Skill upgrades directly affect gameplay, such as increasing the combo cap to 75 after purchase.
 
-![Roblox Studio project view](PASTE_DIRECT_IMAGE_LINK_HERE)
+The system also supports Robux skill resets, with the server handling the logic to keep player data, upgrades, and progression reliable.
 
-![Skill check running in Studio](PASTE_DIRECT_IMAGE_LINK_HERE)
+## Full Game Showcase
 
-## Notes for reviewers
+The full showcase video shows the main systems working together in one project, including progression, currency, farms, rebirths, skill buffs, UI, DataStore saving/loading, bomb usage, and client/server systems.
 
-This example is meant to show:
+I handled the scripting, setup, and integration myself, focusing on reliable server-sided logic, reusable structure, and systems that connect properly across the game.
 
-- Roblox API usage across UI, prompts, remotes, input, sound, and camera-space positioning
-- Clean client/server separation
-- Server-side validation instead of trusting the client
-- Cooldown and anti-spam handling
-- Gameplay state management
-- A practical client/server gameplay interaction used in a live Roblox game
+## Role Focus
+
+This submission is mainly focused on systems programming.  
+The strongest parts of the project are the backend systems, automation, reusable modules, DataStore logic, client/server communication, and progression structure.
+
+I am mainly a scripter, but I am especially interested in building clean systems that support larger gameplay features and can be expanded over time.
+
+## Verification
+
+Discord: 902635694260912210
+
+Additional proof:
+https://imgur.com/a/x40ixfU
+https://i.imgur.com/IF20iqZ_d.png?maxwidth=520&shape=thumb&fidelity=high
